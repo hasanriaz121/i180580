@@ -36,13 +36,14 @@
         android:layout_alignParentRight="true"
 
         android:src="@drawable/circle_gold"/>
+
     <ImageView
-        android:layout_marginTop="10dp"
         android:layout_width="80dp"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/ic_baseline_account_circle_24"/>
+        android:src="@drawable/ic_baseline_account_circle_24" />
 
 
 </RelativeLayout>
@@ -51,6 +52,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.35"
         android:orientation="vertical"
+
         android:weightSum="1">
         <TextView
             android:layout_width="match_parent"
@@ -535,8 +537,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/brown"
-    android:layout_gravity="start">
+    android:background="@drawable/gradient_4"
+    android:layout_gravity="start"
+    >
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -570,6 +573,32 @@
         android:paddingLeft="20dp"
         android:layout_marginTop="30dp"
         android:textSize="25sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="80dp">
+    <TextView
+        android:id="@+id/lg"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:textColor="@color/golden"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/logout"
+            />
+    </RelativeLayout>
 </LinearLayout>
     </androidx.drawerlayout.widget.DrawerLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
