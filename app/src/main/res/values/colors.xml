@@ -10,5 +10,14 @@
     <color name="golden">#d4b300</color>
     <color name="blue_fb">#4267B2</color>
     <color name="red_ggl">#DB4437</color>
+    <color name="white_e">#eeeeee</color>
+    <color name="dark_gold">#816d00</color>
+    <color name="brown">#553f18</color>
+    <color name="grey">#2a2730</color>
+    <color name="grey_bartext">#8d8893</color>
+    <color name="brown_grad_start">#554019</color>
+    <color name="brown_grad_mid">#4a331a</color>
+    <color name="brown_grad_end">#36201c</color>
+
 
 </resources>
