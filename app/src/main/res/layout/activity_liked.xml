@@ -48,18 +48,19 @@
             android:background="@drawable/gradient_2"
             android:layout_marginHorizontal="10dp"
             android:weightSum="1">
-            <Button
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
-                android:background="@drawable/golden_circle_outline"
+                android:background="@drawable/circle_gold"
+                android:gravity="center"
                 android:textColor="@color/brown_grad_mid"
                 android:text="Playlist"/>
-            <Button
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
-                android:background=""
+                android:gravity="center"
                 android:backgroundTintMode="screen"
                 android:textColor="@color/golden"
                 android:text="Music"/>
